@@ -1,0 +1,66 @@
+{
+  "formatVersion": 1,
+  "assets": {
+    "generated-un5uuvlokb4ak13auhnsaghu-0": {
+      "id": "generated-un5uuvlokb4ak13auhnsaghu-0",
+      "width": 1216,
+      "height": 896,
+      "sha256": "00d3e5d09dd99524c460045ed4413b0f0cedab25474f6e3645bf423c6091146d",
+      "source": "OpenRouter:recraft/recraft-v4.1-flash",
+      "altText": "Signalpost name with evidence-post symbol",
+      "assetId": "mesbn4zzdzbuj5apd63con7d",
+      "assetUrl": "https://keystone.jboxai.com/project-assets/ldgsfom8rk1binqhqdldgwx3/mesbn4zzdzbuj5apd63con7d/00d3e5d09dd99524c460045ed4413b0f0cedab25474f6e3645bf423c6091146d/00d3e5d09dd99524.webp",
+      "fileName": "Signalpost name with evidence-post symbol",
+      "mimeType": "image/webp",
+      "createdAt": "2026-10-17T12:08:38.851Z",
+      "sizeBytes": 729450,
+      "sourceUrl": "image-job://un5uuvlokb4ak13auhnsaghu/0",
+      "updatedAt": "2026-10-17T12:08:38.851Z",
+      "validated": false,
+      "previewUrl": "https://keystone.jboxai.com/project-assets/ldgsfom8rk1binqhqdldgwx3/ghyj02ugco79zmm77o1yw75w/5a7af22287c182ef30732b4fdffbfab0a4cdc16ef073b70c95ccd5fa1feba0f4/5a7af22287c182ef.webp",
+      "usageContext": "Generated image"
+    },
+    "generated-un5uuvlokb4ak13auhnsaghu-1": {
+      "id": "generated-un5uuvlokb4ak13auhnsaghu-1",
+      "width": 1216,
+      "height": 896,
+      "sha256": "21808eb4b99c849162ec5ed083d4888900f8216f73fb150893cde7095d97537e",
+      "source": "OpenRouter:recraft/recraft-v4.1-flash",
+      "altText": "Signalpost name-led identity",
+      "assetId": "zu4nqe9cq2rg0q038iwhlo59",
+      "assetUrl": "https://keystone.jboxai.com/project-assets/ldgsfom8rk1binqhqdldgwx3/zu4nqe9cq2rg0q038iwhlo59/21808eb4b99c849162ec5ed083d4888900f8216f73fb150893cde7095d97537e/21808eb4b99c8491.webp",
+      "fileName": "Signalpost name-led identity",
+      "mimeType": "image/webp",
+      "createdAt": "2026-10-17T12:08:39.101Z",
+      "sizeBytes": 762200,
+      "sourceUrl": "image-job://un5uuvlokb4ak13auhnsaghu/1",
+      "updatedAt": "2026-10-17T12:08:39.101Z",
+      "validated": false,
+      "previewUrl": "https://keystone.jboxai.com/project-assets/ldgsfom8rk1binqhqdldgwx3/lbeun27kcnor4mg13x4edlh1/2b24a8c3a17d58553612a75276acd936f7b9233f2ca74925c29d4b906d7fd75e/2b24a8c3a17d5855.webp",
+      "usageContext": "Generated image"
+    },
+    "signalpost-brand-symbol": {
+      "id": "signalpost-brand-symbol",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "cad54c9ea410338d82dab051329739a322957cd550e3baee4e76bbdd71ad5c44",
+      "source": "OpenRouter:recraft/recraft-v4.1-vector",
+      "altText": "Signalpost production evidence-post symbol",
+      "assetId": "vkbqv7chk8zzc3s754vhl9cy",
+      "assetUrl": "https://keystone.jboxai.com/project-assets/ldgsfom8rk1binqhqdldgwx3/vkbqv7chk8zzc3s754vhl9cy/cad54c9ea410338d82dab051329739a322957cd550e3baee4e76bbdd71ad5c44/cad54c9ea410338d.svg",
+      "fileName": "Signalpost production evidence-post symbol",
+      "mimeType": "image/svg+xml",
+      "createdAt": "2026-10-17T12:20:05.248Z",
+      "sizeBytes": 1529,
+      "sourceUrl": "image-job://uyc2xaoltup7302j8f5g8qnm",
+      "updatedAt": "2026-10-17T12:20:05.248Z",
+      "validated": false,
+      "previewUrl": "https://keystone.jboxai.com/project-assets/ldgsfom8rk1binqhqdldgwx3/o2cj8nsvzfnnhmoi3ndlj0em/f421e18a396eaf7b9f8a80d5221ebcb08c2a40928b5586a0e8ab40fdc0a823e4/f421e18a396eaf7b.webp",
+      "usageContext": "Generated image"
+    }
+  },
+  "legacyPaths": {},
+  "legacyBaseline": {
+    "app/favicon.ico": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+  }
+}
