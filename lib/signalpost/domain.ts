@@ -31,7 +31,7 @@ export function companyObservations(runs:ResearchRun[],organisationNumber:string
  });
 }
 export function available(c:Envelope){return c.claims.filter(x=>x.availability==='available')}
-export function financialKey(c:Claim){return [c.field,c.period?.from||'unknown-start',c.period?.to||'unknown-end',c.account_type||'unknown-account',c.currency||'unknown-currency',c.unit||'base'].join('|')}
+export function financialKey(c:Claim){return [c.field,c.period?.from||'unknown-start',c.period?.to||'unknown-end',c.account_type||'unknown-account',c.currency||'unknown-currency',c.unit||'unit-not-supplied'].join('|')}
 export function comparable(a:Claim,b:Claim){return !!a.period?.from&&!!a.period?.to&&!!a.currency&&!!a.account_type&&financialKey(a)===financialKey(b)}
 export function comparisonRows(cs:Company[]){
  const rows=new Map<string,{key:string;title:string;cells:Claim[][]}>();
@@ -42,7 +42,23 @@ export function comparisonRows(cs:Company[]){
   if(!rows.has(key))rows.set(key,{key,title:`${label(cl.field)}${cl.category==='filings'?` · ${cl.period?.from||'?'} – ${cl.period?.to||'?'} · ${cl.currency||'currency unknown'} · ${cl.account_type||'account type unknown'}${cl.unit?` · ${cl.unit}`:''}`:''}`,cells:cs.map((co,i)=>!metadataKnown&&i!==index?[]:co.claims.filter(x=>cl.category==='filings'?financialKey(x)===financialKey(cl):x.category===cl.category&&x.field===cl.field))});
  }));return [...rows.values()];
 }
-export function comparisonSummary(cs:Company[],rows:ReturnType<typeof comparisonRows>){return rows.map(r=>`${r.title}\n${cs.map((c,i)=>`${companyName(c)}: ${r.cells[i].length?r.cells[i].map(cl=>claimValue(cl)).join('; '):'Not available'} · observed ${date(c.run.completed_at)}`).join('\n')}`).join('\n\n')}
+export const comparisonAvailability:Record<Availability,string> = {
+ available:'Supported by supplied evidence; not a guarantee of current verification.',
+ not_available:'Checked; nothing found.',
+ blocked:'Could not be checked in this run (blocked).',
+ failed:'Could not be checked in this run (source failed).',
+ ambiguous:'Candidates found, not confirmed as this company.',
+ not_applicable:'Not attributed to this company.',
+};
+export function comparisonClaimContext(cl:Claim){return [comparisonAvailability[cl.availability],cl.reason,cl.carried_forward?`Value retained from earlier research; not re-verified in this run. Last verified: ${date(cl.last_verified_at,true)}.`:undefined].filter((x):x is string=>!!x)}
+export function comparisonCompanyContext(c:Company){return [
+ `Run: ${c.run.run_id} · ${label(c.run.terminal_status)}`,
+ c.company_status?`Company research: ${label(c.company_status.state)}${c.company_status.reasons.length?` · ${c.company_status.reasons.join('; ')}`:''}`: 'Company research status not supplied.',
+ c.identity?.carried_forward?'Identity retained from earlier research; not re-verified in this run.':undefined,
+ c.refresh?.carried_forward_modules?.length?`Retained modules: ${c.refresh.carried_forward_modules.join(', ')}`:undefined,
+ c.refresh?.unverified_modules?.length?`Unverified modules: ${c.refresh.unverified_modules.join(', ')}. Previously verified facts could not be confirmed; this is not a claim availability state or proof of removal.`:undefined,
+ ].filter((x):x is string=>!!x)}
+export function comparisonSummary(cs:Company[],rows:ReturnType<typeof comparisonRows>){return [cs.map(c=>`${companyName(c)} (${c.organisation_number})\n${comparisonCompanyContext(c).join('\n')}`).join('\n\n'),...rows.map(r=>`${r.title}\n${cs.map((c,i)=>`${companyName(c)}: ${r.cells[i].length?r.cells[i].map(cl=>`${claimValue(cl)} · ${cl.availability} · ${comparisonClaimContext(cl).join(' ')} · Evidence: ${cl.evidence_ids.join(', ')||'Not supplied'}`).join('; '):'Not supplied: no matching field in this result; no absence or zero inferred.'} · run completed ${date(c.run.completed_at)}`).join('\n')}`)].join('\n\n')}
 export function coverage(run?:ResearchRun){const cs=companies(run);return CATEGORIES.map(cat=>({category:cat,available:cs.filter(c=>c.claims.some(x=>x.category===cat&&x.availability==='available')).length,total:cs.length}))}
 export function statusCounts(run?:ResearchRun){return AVAILABILITIES.map(status=>({status,count:(run?.envelopes||[]).flatMap(c=>c.claims).filter(c=>c.availability===status).length}))}
 export function reportCoverage(run?:ResearchRun){const n=run?.report?.input_rows,e=run?.report?.emitted_envelopes;return n!==undefined&&e!==undefined&&n>0&&e<=n?e/n:undefined}
