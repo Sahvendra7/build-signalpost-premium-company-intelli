@@ -57,9 +57,56 @@
       "validated": false,
       "previewUrl": "https://keystone.jboxai.com/project-assets/ldgsfom8rk1binqhqdldgwx3/o2cj8nsvzfnnhmoi3ndlj0em/f421e18a396eaf7b9f8a80d5221ebcb08c2a40928b5586a0e8ab40fdc0a823e4/f421e18a396eaf7b.webp",
       "usageContext": "Generated image"
+    },
+    "signalpost-symbol": {
+      "id": "signalpost-symbol",
+      "source": "user upload (original bytes, no edits)",
+      "altText": "Signalpost brand symbol: white upward triangle centered on black square",
+      "threadId": "dbzebaneydwnc8jcv3f7mmky:architect",
+      "sourceUrl": "keystone-media://s4nhzry9ar5g8vpqhnlxuauw",
+      "validated": false,
+      "usageContext": "Brand component logo/symbol restoration",
+      "assetId": "a1ih5sd9u42ujaxqr9s81w84",
+      "assetUrl": "https://keystone.jboxai.com/project-assets/atcuuy1fvdeo2o9l1yl55b3y/a1ih5sd9u42ujaxqr9s81w84/90b0c25a997e9362b93bc05396204b72b4be12dad1a8d5004e4bdae37a61eb47/90b0c25a997e9362.png",
+      "mimeType": "image/png",
+      "sizeBytes": 7833,
+      "sha256": "90b0c25a997e9362b93bc05396204b72b4be12dad1a8d5004e4bdae37a61eb47",
+      "createdAt": "2026-11-01T15:28:49.566Z",
+      "updatedAt": "2026-11-01T15:28:49.566Z"
+    },
+    "legacy:/brand/signalpost-symbol.png": {
+      "id": "legacy:/brand/signalpost-symbol.png",
+      "source": "legacy-project",
+      "fileName": "signalpost-symbol.png",
+      "sourceUrl": "project-file://public/brand/signalpost-symbol.png",
+      "usageContext": "/brand/signalpost-symbol.png",
+      "assetId": "a1ih5sd9u42ujaxqr9s81w84",
+      "assetUrl": "https://keystone.jboxai.com/project-assets/atcuuy1fvdeo2o9l1yl55b3y/a1ih5sd9u42ujaxqr9s81w84/90b0c25a997e9362b93bc05396204b72b4be12dad1a8d5004e4bdae37a61eb47/90b0c25a997e9362.png",
+      "mimeType": "image/png",
+      "sizeBytes": 7833,
+      "sha256": "90b0c25a997e9362b93bc05396204b72b4be12dad1a8d5004e4bdae37a61eb47",
+      "validated": false,
+      "createdAt": "2026-11-01T15:29:21.043Z",
+      "updatedAt": "2026-11-01T15:29:21.043Z"
     }
   },
-  "legacyPaths": {},
+  "legacyPaths": {
+    "/brand/signalpost-symbol.png": {
+      "id": "legacy:/brand/signalpost-symbol.png",
+      "source": "legacy-project",
+      "fileName": "signalpost-symbol.png",
+      "sourceUrl": "project-file://public/brand/signalpost-symbol.png",
+      "usageContext": "/brand/signalpost-symbol.png",
+      "assetId": "a1ih5sd9u42ujaxqr9s81w84",
+      "assetUrl": "https://keystone.jboxai.com/project-assets/atcuuy1fvdeo2o9l1yl55b3y/a1ih5sd9u42ujaxqr9s81w84/90b0c25a997e9362b93bc05396204b72b4be12dad1a8d5004e4bdae37a61eb47/90b0c25a997e9362.png",
+      "mimeType": "image/png",
+      "sizeBytes": 7833,
+      "sha256": "90b0c25a997e9362b93bc05396204b72b4be12dad1a8d5004e4bdae37a61eb47",
+      "validated": false,
+      "createdAt": "2026-11-01T15:29:21.043Z",
+      "updatedAt": "2026-11-01T15:29:21.043Z"
+    }
+  },
   "legacyBaseline": {
     "app/favicon.ico": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
   }
