@@ -1,3 +1,5 @@
+// @ts-ignore - JBOX managed JavaScript helper
+import __withJboxAssets from "./jbox.asset-redirects.cjs";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -20,4 +22,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default __withJboxAssets(nextConfig);

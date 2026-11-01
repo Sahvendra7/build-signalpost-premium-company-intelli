@@ -1,0 +1,1525 @@
+{
+  "organisation_number": "917922896",
+  "run": {
+    "run_id": "submission-smoke-c5c6a32",
+    "started_at": "2026-10-03T11:23:29.323842Z",
+    "completed_at": "2026-10-03T11:23:37.937879Z",
+    "terminal_status": "completed"
+  },
+  "claims": [
+    {
+      "field": "organisation_number",
+      "category": "identity",
+      "value": "917922896",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-ddf5101c0692e0a8ed54"
+      ],
+      "method": "deterministic_json_field",
+      "key": "cc263794534f60a1a87813aa"
+    },
+    {
+      "field": "legal_name",
+      "category": "identity",
+      "value": "T&G EIENDOM AS",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-d43a6cd9c7b7f2b380e2"
+      ],
+      "method": "deterministic_json_field",
+      "key": "bd31096ec4e4d8fdd3e5c98f"
+    },
+    {
+      "field": "legal_form",
+      "category": "identity",
+      "value": "AS",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-fd751b1db7692049dddf"
+      ],
+      "method": "deterministic_json_field",
+      "key": "81545ffb53d027e44c23faef"
+    },
+    {
+      "field": "industry",
+      "category": "identity",
+      "value": {
+        "code": "68.200",
+        "description": "Utleie av egen eller leid fast eiendom"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-0d21f62bba887fa2ad14"
+      ],
+      "method": "deterministic_json_field",
+      "key": "bc8001ee9e29786952946454"
+    },
+    {
+      "field": "bankrupt",
+      "category": "identity",
+      "value": false,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-48722f754adcff40e944"
+      ],
+      "method": "deterministic_json_field",
+      "key": "323004dfc9bca57b8a0a4b6a"
+    },
+    {
+      "field": "under_liquidation",
+      "category": "identity",
+      "value": false,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-f690b858fbdeb34684e3"
+      ],
+      "method": "deterministic_json_field",
+      "key": "6763ae5f57060136631e9ae2"
+    },
+    {
+      "field": "registry_employee_count",
+      "category": "identity",
+      "value": null,
+      "availability": "not_available",
+      "confidence": null,
+      "evidence_ids": [],
+      "reason": "The registry record carries no employee count",
+      "key": "da3b34ad395acdd815eb952d"
+    },
+    {
+      "field": "founded_date",
+      "category": "identity",
+      "value": "2016-10-12",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-2c05cb36d9d7d64630d5"
+      ],
+      "method": "deterministic_json_field",
+      "key": "12e571768fb0a0446aba1495"
+    },
+    {
+      "field": "registry_registration_date",
+      "category": "identity",
+      "value": "2016-11-03",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-f23c555f528ba23499b2"
+      ],
+      "method": "deterministic_json_field",
+      "key": "cfb2c8e0aa5e39c840fb3fdb"
+    },
+    {
+      "field": "registered_activity",
+      "category": "description",
+      "value": "Kj\u00f8p, salg og utleie av eiendom. Deltagelse i andre selskaper.",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-a23ae9a4427eb2843b02"
+      ],
+      "method": "deterministic_json_field",
+      "key": "cb6855b0c4fae289c17e5133"
+    },
+    {
+      "field": "statutory_purpose",
+      "category": "description",
+      "value": "Kj\u00f8p, salg og utleie av eiendom. Deltagelse i andre selskaper.",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-0ba8b84d3ff62629e905"
+      ],
+      "method": "deterministic_json_field",
+      "key": "8f9a329f1ebb419f733a0f7b"
+    },
+    {
+      "field": "business_address",
+      "category": "locations",
+      "value": {
+        "lines": [
+          "Elgvegen 5"
+        ],
+        "postal_code": "2053",
+        "city": "JESSHEIM",
+        "municipality": "ULLENSAKER",
+        "municipality_number": "3209",
+        "country": "Norge"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-d0028c9a4d18af111a38"
+      ],
+      "method": "deterministic_json_field",
+      "key": "464d345020501ee4d72780c9"
+    },
+    {
+      "field": "latest_filed_accounts_year",
+      "category": "filings",
+      "value": "2025",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-df291f2223fb5029d170"
+      ],
+      "method": "deterministic_json_field",
+      "key": "bad089e587ede3a2d6231dc8"
+    },
+    {
+      "field": "revenue",
+      "category": "filings",
+      "value": 1061450.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-5f886bd806528e689a03"
+      ],
+      "method": "deterministic_json_field",
+      "key": "605e463a0ed383ea0e30b5e0",
+      "period": {
+        "from": "2023-01-01",
+        "to": "2023-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "operating_result",
+      "category": "filings",
+      "value": 414842.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-ae932bf6af9f4ea10f19"
+      ],
+      "method": "deterministic_json_field",
+      "key": "e712eaa4f596e8e8f40ecd3a",
+      "period": {
+        "from": "2023-01-01",
+        "to": "2023-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "profit_before_tax",
+      "category": "filings",
+      "value": -192592.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-bca79ea69a0cd70fa04f"
+      ],
+      "method": "deterministic_json_field",
+      "key": "cf1e97982071237d7261cb78",
+      "period": {
+        "from": "2023-01-01",
+        "to": "2023-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "net_result",
+      "category": "filings",
+      "value": -192592.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-7e881748a12df488e50f"
+      ],
+      "method": "deterministic_json_field",
+      "key": "d1ca85f81b696604d971ce9d",
+      "period": {
+        "from": "2023-01-01",
+        "to": "2023-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "total_assets",
+      "category": "filings",
+      "value": 17553749.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-4a137e17c564786ad927"
+      ],
+      "method": "deterministic_json_field",
+      "key": "879dbde453b46ff937f3e9e5",
+      "period": {
+        "from": "2023-01-01",
+        "to": "2023-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "equity",
+      "category": "filings",
+      "value": 1201357.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-2a3aa92f990952119428"
+      ],
+      "method": "deterministic_json_field",
+      "key": "bd000e6a863f538ac64d7813",
+      "period": {
+        "from": "2023-01-01",
+        "to": "2023-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "total_debt",
+      "category": "filings",
+      "value": 16352391.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-ad3eb14a372457a196c2"
+      ],
+      "method": "deterministic_json_field",
+      "key": "11c1bd6e446d800516911088",
+      "period": {
+        "from": "2023-01-01",
+        "to": "2023-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "revenue",
+      "category": "filings",
+      "value": 1464700.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-18dcb0920e296f05b931"
+      ],
+      "method": "deterministic_json_field",
+      "key": "aa6731d6ca1645888c2f92b2",
+      "period": {
+        "from": "2024-01-01",
+        "to": "2024-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "operating_result",
+      "category": "filings",
+      "value": 772925.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-1a020f8ad9bf628b7bcb"
+      ],
+      "method": "deterministic_json_field",
+      "key": "e2ea6f5e233cf1db8f21fc3f",
+      "period": {
+        "from": "2024-01-01",
+        "to": "2024-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "profit_before_tax",
+      "category": "filings",
+      "value": -150511.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-8cb2f66f052f3924538f"
+      ],
+      "method": "deterministic_json_field",
+      "key": "db54d9b034cc83bc41df7d32",
+      "period": {
+        "from": "2024-01-01",
+        "to": "2024-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "net_result",
+      "category": "filings",
+      "value": -150511.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-64b516ae17bb8e6da102"
+      ],
+      "method": "deterministic_json_field",
+      "key": "c09743cb514802b9e9bd33d1",
+      "period": {
+        "from": "2024-01-01",
+        "to": "2024-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "total_assets",
+      "category": "filings",
+      "value": 17841624.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-131ea7a621e12f67a18f"
+      ],
+      "method": "deterministic_json_field",
+      "key": "9d7f2ad764550f117cfda042",
+      "period": {
+        "from": "2024-01-01",
+        "to": "2024-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "equity",
+      "category": "filings",
+      "value": 1050847.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-f1059a9be7344ea4b0b1"
+      ],
+      "method": "deterministic_json_field",
+      "key": "f69db751c690fb5b1b07abb4",
+      "period": {
+        "from": "2024-01-01",
+        "to": "2024-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "total_debt",
+      "category": "filings",
+      "value": 16790777.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-e53174db950f1fe9436a"
+      ],
+      "method": "deterministic_json_field",
+      "key": "090ebe8bf3e6c5b07a1d075a",
+      "period": {
+        "from": "2024-01-01",
+        "to": "2024-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "revenue",
+      "category": "filings",
+      "value": 2766690.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-622e9e1c9c5f1d55bcc2"
+      ],
+      "method": "deterministic_json_field",
+      "key": "08e7af9b12c63d12b50059b4",
+      "period": {
+        "from": "2025-01-01",
+        "to": "2025-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "operating_result",
+      "category": "filings",
+      "value": 1997069.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-f953df5d1958a1ce193f"
+      ],
+      "method": "deterministic_json_field",
+      "key": "59f817101a3daf237121cd54",
+      "period": {
+        "from": "2025-01-01",
+        "to": "2025-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "profit_before_tax",
+      "category": "filings",
+      "value": 1305288.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-a52b87a16d7347eb2791"
+      ],
+      "method": "deterministic_json_field",
+      "key": "cf82390789140bea7ddbb350",
+      "period": {
+        "from": "2025-01-01",
+        "to": "2025-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "net_result",
+      "category": "filings",
+      "value": 1089283.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-11101d99ddff6c529e16"
+      ],
+      "method": "deterministic_json_field",
+      "key": "6970dcb146e462ebb81c6d19",
+      "period": {
+        "from": "2025-01-01",
+        "to": "2025-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "total_assets",
+      "category": "filings",
+      "value": 15139058.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-e28081247af073f8b0d3"
+      ],
+      "method": "deterministic_json_field",
+      "key": "908415483275d4990c8c427a",
+      "period": {
+        "from": "2025-01-01",
+        "to": "2025-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "equity",
+      "category": "filings",
+      "value": 2140129.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-e681e43740bce667e9b0"
+      ],
+      "method": "deterministic_json_field",
+      "key": "9d1d5fff59db61614d6937f4",
+      "period": {
+        "from": "2025-01-01",
+        "to": "2025-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "total_debt",
+      "category": "filings",
+      "value": 12998929.0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-97ba25b98a21ece6ec94"
+      ],
+      "method": "deterministic_json_field",
+      "key": "7e889a3be487129a5cbadb90",
+      "period": {
+        "from": "2025-01-01",
+        "to": "2025-12-31"
+      },
+      "currency": "NOK",
+      "account_type": "SELSKAP"
+    },
+    {
+      "field": "role_count",
+      "category": "leadership",
+      "value": 4,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-c3473ea15d4b0fa05386"
+      ],
+      "method": "deterministic_json_field",
+      "key": "b1538d21ca092b9029108173"
+    },
+    {
+      "field": "ceo",
+      "category": "leadership",
+      "value": {
+        "name": "Ky Tran",
+        "role_code": "DAGL",
+        "role": "Daglig leder",
+        "group": "Daglig leder",
+        "group_last_changed": "2016-11-03"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-8897ffc95a10deadd2be"
+      ],
+      "method": "deterministic_json_field",
+      "key": "fc225d829f07e2e0a1918c20"
+    },
+    {
+      "field": "board_chair",
+      "category": "leadership",
+      "value": {
+        "name": "Ky Tran",
+        "role_code": "LEDE",
+        "role": "Styrets leder",
+        "group": "Styre",
+        "group_last_changed": "2016-11-03"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-d78835947ba1009bda15"
+      ],
+      "method": "deterministic_json_field",
+      "key": "60f8a59b771c60c72fe24c73"
+    },
+    {
+      "field": "board_deputy_member",
+      "category": "leadership",
+      "value": {
+        "name": "Fernando Enrique Galli",
+        "role_code": "VARA",
+        "role": "Varamedlem",
+        "group": "Styre",
+        "group_last_changed": "2016-11-03"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-7d1d9572e336c6109589"
+      ],
+      "method": "deterministic_json_field",
+      "key": "b41ef271934e64d524431fdf"
+    },
+    {
+      "field": "accountant",
+      "category": "leadership",
+      "value": {
+        "name": [
+          "REGNSKAP 4U AS"
+        ],
+        "organisation_number": "825704922",
+        "role_code": "REGN",
+        "role": "Regnskapsf\u00f8rer",
+        "group": "Regnskapsf\u00f8rer",
+        "group_last_changed": "2020-11-07"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-da441895933304175fc8"
+      ],
+      "method": "deterministic_json_field",
+      "key": "06f909a0e5ded2d9402db9f1"
+    },
+    {
+      "field": "roles_last_changed",
+      "category": "registry_activity",
+      "value": "2020-11-07",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-b99e72c7a4a0824584bb"
+      ],
+      "method": "deterministic_json_field",
+      "key": "c8ef666542e1f9d3c10886e3",
+      "event_date": "2020-11-07"
+    },
+    {
+      "field": "subunit_count",
+      "category": "locations",
+      "value": 1,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-f454113ad88d6cb9f76b"
+      ],
+      "method": "deterministic_json_field",
+      "key": "2b8930c1d6c95b0c157d1a23"
+    },
+    {
+      "field": "subunit",
+      "category": "locations",
+      "value": {
+        "organisation_number": "918057870",
+        "name": "T&G EIENDOM AS",
+        "address": {
+          "lines": [
+            "Elgvegen 5"
+          ],
+          "postal_code": "2053",
+          "city": "JESSHEIM",
+          "municipality": "ULLENSAKER",
+          "municipality_number": "3209",
+          "country": "Norge"
+        },
+        "industry": "68.200"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-ee775a885699680ac2ec"
+      ],
+      "method": "deterministic_json_field",
+      "key": "ef42e17404ce85a8d20a757a"
+    },
+    {
+      "field": "group_structure",
+      "category": "relationships",
+      "value": null,
+      "availability": "not_available",
+      "confidence": null,
+      "evidence_ids": [],
+      "reason": "HTTP 404",
+      "key": "5caf88894cc1fdcf95fe8016"
+    },
+    {
+      "field": "site_activity",
+      "category": "public_activity",
+      "value": null,
+      "availability": "not_available",
+      "confidence": null,
+      "evidence_ids": [],
+      "reason": "No verified company website (name_domain_guess:DIRECTORY)",
+      "key": "2fb44258f542821f3f6a36eb"
+    },
+    {
+      "field": "job_posting",
+      "category": "hiring",
+      "value": null,
+      "availability": "not_available",
+      "confidence": null,
+      "evidence_ids": [],
+      "reason": "No verified company website (name_domain_guess:DIRECTORY)",
+      "key": "fea97ce1fbf47656a81e76a8"
+    },
+    {
+      "field": "official_website",
+      "category": "websites",
+      "value": null,
+      "availability": "not_available",
+      "confidence": null,
+      "evidence_ids": [],
+      "reason": "No valid registry website URL",
+      "key": "9c40ec345ef588a7530fb06f"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-0ba8b84d3ff62629e905",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.vedtektsfestetFormaal=Kj\u00f8p, salg og utleie av eiendom. Deltagelse i andre selskaper.",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    },
+    {
+      "id": "ev-0d21f62bba887fa2ad14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.naeringskode1=68.200",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    },
+    {
+      "id": "ev-11101d99ddff6c529e16",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=6665756].annual_result=1089283.0 (2025-01-01..2025-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-131ea7a621e12f67a18f",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5841743].assets=17841624.0 (2024-01-01..2024-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-18dcb0920e296f05b931",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5841743].revenue=1464700.0 (2024-01-01..2024-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-1a020f8ad9bf628b7bcb",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5841743].operating_result=772925.0 (2024-01-01..2024-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-2a3aa92f990952119428",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5080525].equity=1201357.0 (2023-01-01..2023-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-2c05cb36d9d7d64630d5",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.stiftelsesdato=2016-10-12",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    },
+    {
+      "id": "ev-48722f754adcff40e944",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.konkurs=false",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    },
+    {
+      "id": "ev-4a137e17c564786ad927",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5080525].assets=17553749.0 (2023-01-01..2023-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-5f886bd806528e689a03",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5080525].revenue=1061450.0 (2023-01-01..2023-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-622e9e1c9c5f1d55bcc2",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=6665756].revenue=2766690.0 (2025-01-01..2025-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-64b516ae17bb8e6da102",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5841743].annual_result=-150511.0 (2024-01-01..2024-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-7d1d9572e336c6109589",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896/roller",
+      "source_class": "official_roles",
+      "retrieved_at": "2026-10-03T11:23:33.163968Z",
+      "content_sha256": "11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f",
+      "claim_span": "roller[VARA]=Fernando Enrique Galli",
+      "snapshot_path": "11/11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f.bin"
+    },
+    {
+      "id": "ev-7e881748a12df488e50f",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5080525].annual_result=-192592.0 (2023-01-01..2023-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-8897ffc95a10deadd2be",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896/roller",
+      "source_class": "official_roles",
+      "retrieved_at": "2026-10-03T11:23:33.163968Z",
+      "content_sha256": "11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f",
+      "claim_span": "roller[DAGL]=Ky Tran",
+      "snapshot_path": "11/11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f.bin"
+    },
+    {
+      "id": "ev-8cb2f66f052f3924538f",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5841743].profit_before_tax=-150511.0 (2024-01-01..2024-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-97ba25b98a21ece6ec94",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=6665756].debt=12998929.0 (2025-01-01..2025-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-a23ae9a4427eb2843b02",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.aktivitet=Kj\u00f8p, salg og utleie av eiendom. Deltagelse i andre selskaper.",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    },
+    {
+      "id": "ev-a52b87a16d7347eb2791",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=6665756].profit_before_tax=1305288.0 (2025-01-01..2025-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-ad3eb14a372457a196c2",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5080525].debt=16352391.0 (2023-01-01..2023-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-ae932bf6af9f4ea10f19",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5080525].operating_result=414842.0 (2023-01-01..2023-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-b99e72c7a4a0824584bb",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896/roller",
+      "source_class": "official_roles",
+      "retrieved_at": "2026-10-03T11:23:33.163968Z",
+      "content_sha256": "11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f",
+      "claim_span": "rollegrupper.sistEndret=2020-11-07",
+      "snapshot_path": "11/11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f.bin"
+    },
+    {
+      "id": "ev-bca79ea69a0cd70fa04f",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5080525].profit_before_tax=-192592.0 (2023-01-01..2023-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-c3473ea15d4b0fa05386",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896/roller",
+      "source_class": "official_roles",
+      "retrieved_at": "2026-10-03T11:23:33.163968Z",
+      "content_sha256": "11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f",
+      "claim_span": "roller.active_count=4",
+      "snapshot_path": "11/11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f.bin"
+    },
+    {
+      "id": "ev-d0028c9a4d18af111a38",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.forretningsadresse=Elgvegen 5, 2053, JESSHEIM",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    },
+    {
+      "id": "ev-d43a6cd9c7b7f2b380e2",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.navn=T&G EIENDOM AS",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    },
+    {
+      "id": "ev-d78835947ba1009bda15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896/roller",
+      "source_class": "official_roles",
+      "retrieved_at": "2026-10-03T11:23:33.163968Z",
+      "content_sha256": "11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f",
+      "claim_span": "roller[LEDE]=Ky Tran",
+      "snapshot_path": "11/11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f.bin"
+    },
+    {
+      "id": "ev-da441895933304175fc8",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896/roller",
+      "source_class": "official_roles",
+      "retrieved_at": "2026-10-03T11:23:33.163968Z",
+      "content_sha256": "11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f",
+      "claim_span": "roller[REGN]=['REGNSKAP 4U AS']",
+      "snapshot_path": "11/11b3c583b25901924ed208c8d8b59c82cd3fb63f9802cf03e85e7c8e7b8f422f.bin"
+    },
+    {
+      "id": "ev-ddf5101c0692e0a8ed54",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.organisasjonsnummer=917922896",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    },
+    {
+      "id": "ev-df291f2223fb5029d170",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.sisteInnsendteAarsregnskap=2025",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    },
+    {
+      "id": "ev-e28081247af073f8b0d3",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=6665756].assets=15139058.0 (2025-01-01..2025-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-e53174db950f1fe9436a",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5841743].debt=16790777.0 (2024-01-01..2024-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-e681e43740bce667e9b0",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=6665756].equity=2140129.0 (2025-01-01..2025-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-ee775a885699680ac2ec",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=917922896&size=1000",
+      "source_class": "official_subunits",
+      "retrieved_at": "2026-10-03T11:23:32.489197Z",
+      "content_sha256": "2d51c32d2d2cdf4664368fbdecb6812408d716df8e6f242a43221a304a03a198",
+      "claim_span": "underenheter[918057870]=T&G EIENDOM AS",
+      "snapshot_path": "2d/2d51c32d2d2cdf4664368fbdecb6812408d716df8e6f242a43221a304a03a198.bin"
+    },
+    {
+      "id": "ev-f1059a9be7344ea4b0b1",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=5841743].equity=1050847.0 (2024-01-01..2024-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-f23c555f528ba23499b2",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.registreringsdatoEnhetsregisteret=2016-11-03",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    },
+    {
+      "id": "ev-f454113ad88d6cb9f76b",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=917922896&size=1000",
+      "source_class": "official_subunits",
+      "retrieved_at": "2026-10-03T11:23:32.489197Z",
+      "content_sha256": "2d51c32d2d2cdf4664368fbdecb6812408d716df8e6f242a43221a304a03a198",
+      "claim_span": "underenheter.count=1",
+      "snapshot_path": "2d/2d51c32d2d2cdf4664368fbdecb6812408d716df8e6f242a43221a304a03a198.bin"
+    },
+    {
+      "id": "ev-f690b858fbdeb34684e3",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.underAvvikling=false",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    },
+    {
+      "id": "ev-f953df5d1958a1ce193f",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/917922896",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-10-03T11:23:31.185449Z",
+      "content_sha256": "6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4",
+      "claim_span": "regnskap[id=6665756].operating_result=1997069.0 (2025-01-01..2025-12-31, NOK)",
+      "snapshot_path": "6d/6d5391cea58d000066bb6ef6ee30f440f1129f1e806f21646200b5ccce843ca4.bin"
+    },
+    {
+      "id": "ev-fd751b1db7692049dddf",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+      "source_class": "official_registry_live",
+      "retrieved_at": "2026-10-03T11:23:30.501800Z",
+      "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+      "claim_span": "enheter.organisasjonsform.kode=AS",
+      "snapshot_path": "8f/8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c.bin"
+    }
+  ],
+  "changes": [],
+  "errors": [],
+  "operations": {
+    "requests": 8,
+    "bytes": 9413,
+    "runtime_ms": 8613,
+    "third_party_cost_usd": 0
+  },
+  "input_organisation_number": "917922896",
+  "input_position": 0,
+  "category_coverage": {
+    "identity": "available",
+    "description": "available",
+    "filings": "available",
+    "leadership": "available",
+    "locations": "available",
+    "websites": "not_available",
+    "public_activity": "not_available",
+    "hiring": "not_available",
+    "relationships": "not_available",
+    "registry_activity": "available"
+  },
+  "area_coverage": {
+    "filings": true,
+    "leadership": true,
+    "locations": true,
+    "websites": false,
+    "public_footprint": false,
+    "hiring": false
+  },
+  "modules": {
+    "registry": {
+      "state": "not_found",
+      "note": "Organisation number absent from the supplied bulk snapshot (or no snapshot supplied)"
+    },
+    "registry_live": {
+      "state": "complete",
+      "note": null
+    },
+    "financials": {
+      "state": "complete",
+      "note": null
+    },
+    "roles": {
+      "state": "complete",
+      "note": null
+    },
+    "group": {
+      "state": "not_found",
+      "note": "HTTP 404"
+    },
+    "locations": {
+      "state": "complete",
+      "note": null
+    },
+    "website": {
+      "state": "not_found",
+      "note": "No valid registry website URL"
+    },
+    "site_research": {
+      "state": "not_found",
+      "note": "No verified company website (name_domain_guess:DIRECTORY)"
+    }
+  },
+  "identity": {
+    "organisation_number": "917922896",
+    "input_organisation_number": "917922896",
+    "anchored": true,
+    "method": "exact organisation-number match in Enhetsregisteret",
+    "legal_name": "T&G EIENDOM AS",
+    "legal_form": "AS",
+    "registry_status": "registered",
+    "source_class": "official_registry_live",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917922896",
+    "retrieved_at": "2026-10-03T11:23:30.501800Z",
+    "content_sha256": "8f03bbbd3691e276375eb45eab4dfc4721526a4f4bff20e97c58dfa26ce75a0c",
+    "evidence_id": "ev-d43a6cd9c7b7f2b380e2",
+    "carried_forward": false
+  },
+  "company_status": {
+    "state": "complete",
+    "reasons": []
+  },
+  "company_summary": {
+    "method": "deterministic_template_v2",
+    "language": "en",
+    "llm_used": false,
+    "sparse": true,
+    "overview": "Public information found was limited to official registry records: registry identity, annual accounts, registered roles, addresses and subunits.",
+    "sections": [
+      {
+        "id": "at_a_glance",
+        "title": "At a glance",
+        "statements": [
+          {
+            "text": "T&G EIENDOM AS (organisation number 917922896) is a private limited company (AS) registered in Enhetsregisteret, with its business address in JESSHEIM, founded 2016-10-12.",
+            "claim_keys": [
+              "bd31096ec4e4d8fdd3e5c98f",
+              "cc263794534f60a1a87813aa",
+              "81545ffb53d027e44c23faef",
+              "464d345020501ee4d72780c9",
+              "12e571768fb0a0446aba1495"
+            ],
+            "evidence_ids": [
+              "ev-2c05cb36d9d7d64630d5",
+              "ev-d0028c9a4d18af111a38",
+              "ev-d43a6cd9c7b7f2b380e2",
+              "ev-ddf5101c0692e0a8ed54",
+              "ev-fd751b1db7692049dddf"
+            ]
+          },
+          {
+            "text": "What it does: in its registered words, \u201cKj\u00f8p, salg og utleie av eiendom. Deltagelse i andre selskaper.\u201d; registered industry NACE 68.200 (Utleie av egen eller leid fast eiendom).",
+            "claim_keys": [
+              "cb6855b0c4fae289c17e5133",
+              "bc8001ee9e29786952946454"
+            ],
+            "evidence_ids": [
+              "ev-0d21f62bba887fa2ad14",
+              "ev-a23ae9a4427eb2843b02"
+            ]
+          },
+          {
+            "text": "Most recent figures (company accounts, reporting period 2025-01-01 to 2025-12-31): revenue NOK 2,766,690; net result NOK 1,089,283; equity NOK 2,140,129.",
+            "claim_keys": [
+              "08e7af9b12c63d12b50059b4",
+              "6970dcb146e462ebb81c6d19",
+              "9d1d5fff59db61614d6937f4"
+            ],
+            "evidence_ids": [
+              "ev-11101d99ddff6c529e16",
+              "ev-622e9e1c9c5f1d55bcc2",
+              "ev-e681e43740bce667e9b0"
+            ]
+          },
+          {
+            "text": "Employee count: unknown (not published in the registry record; not zero).",
+            "claim_keys": [
+              "da3b34ad395acdd815eb952d"
+            ],
+            "evidence_ids": []
+          },
+          {
+            "text": "Public footprint: no company website was verified in this run, so the profile rests on the official registers.",
+            "claim_keys": [
+              "9c40ec345ef588a7530fb06f"
+            ],
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "id": "what_the_company_does",
+        "title": "What the company does",
+        "statements": [
+          {
+            "text": "Registered activity (Enhetsregisteret, verbatim): \u201cKj\u00f8p, salg og utleie av eiendom. Deltagelse i andre selskaper.\u201d",
+            "claim_keys": [
+              "cb6855b0c4fae289c17e5133"
+            ],
+            "evidence_ids": [
+              "ev-a23ae9a4427eb2843b02"
+            ]
+          },
+          {
+            "text": "Statutory purpose (vedtektsfestet form\u00e5l, verbatim): \u201cKj\u00f8p, salg og utleie av eiendom. Deltagelse i andre selskaper.\u201d",
+            "claim_keys": [
+              "8f9a329f1ebb419f733a0f7b"
+            ],
+            "evidence_ids": [
+              "ev-0ba8b84d3ff62629e905"
+            ]
+          },
+          {
+            "text": "Registered industry code (NACE) 68.200: Utleie av egen eller leid fast eiendom.",
+            "claim_keys": [
+              "bc8001ee9e29786952946454"
+            ],
+            "evidence_ids": [
+              "ev-0d21f62bba887fa2ad14"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "key_company_facts",
+        "title": "Key company facts",
+        "statements": [
+          {
+            "text": "T&G EIENDOM AS (organisation number 917922896), legal form AS (aksjeselskap).",
+            "claim_keys": [
+              "bd31096ec4e4d8fdd3e5c98f",
+              "cc263794534f60a1a87813aa",
+              "81545ffb53d027e44c23faef"
+            ],
+            "evidence_ids": [
+              "ev-d43a6cd9c7b7f2b380e2",
+              "ev-ddf5101c0692e0a8ed54",
+              "ev-fd751b1db7692049dddf"
+            ]
+          },
+          {
+            "text": "Founded: 2016-10-12.",
+            "claim_keys": [
+              "12e571768fb0a0446aba1495"
+            ],
+            "evidence_ids": [
+              "ev-2c05cb36d9d7d64630d5"
+            ]
+          },
+          {
+            "text": "Registered in Enhetsregisteret: 2016-11-03.",
+            "claim_keys": [
+              "cfb2c8e0aa5e39c840fb3fdb"
+            ],
+            "evidence_ids": [
+              "ev-f23c555f528ba23499b2"
+            ]
+          },
+          {
+            "text": "Employee count: not published. Source note: The registry record carries no employee count.",
+            "claim_keys": [
+              "da3b34ad395acdd815eb952d"
+            ],
+            "evidence_ids": []
+          },
+          {
+            "text": "Not registered as bankrupt or under liquidation in Enhetsregisteret.",
+            "claim_keys": [
+              "323004dfc9bca57b8a0a4b6a",
+              "6763ae5f57060136631e9ae2"
+            ],
+            "evidence_ids": [
+              "ev-48722f754adcff40e944",
+              "ev-f690b858fbdeb34684e3"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "leadership",
+        "title": "Leadership",
+        "statements": [
+          {
+            "text": "Chief executive (daglig leder): Ky Tran.",
+            "claim_keys": [
+              "fc225d829f07e2e0a1918c20"
+            ],
+            "evidence_ids": [
+              "ev-8897ffc95a10deadd2be"
+            ]
+          },
+          {
+            "text": "Board chair (styrets leder): Ky Tran.",
+            "claim_keys": [
+              "60f8a59b771c60c72fe24c73"
+            ],
+            "evidence_ids": [
+              "ev-d78835947ba1009bda15"
+            ]
+          },
+          {
+            "text": "Deputy board members (varamedlem): Fernando Enrique Galli.",
+            "claim_keys": [
+              "b41ef271934e64d524431fdf"
+            ],
+            "evidence_ids": [
+              "ev-7d1d9572e336c6109589"
+            ]
+          },
+          {
+            "text": "Accountant (regnskapsf\u00f8rer): REGNSKAP 4U AS (organisation number 825704922).",
+            "claim_keys": [
+              "06f909a0e5ded2d9402db9f1"
+            ],
+            "evidence_ids": [
+              "ev-da441895933304175fc8"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "locations",
+        "title": "Locations",
+        "statements": [
+          {
+            "text": "Business address: Elgvegen 5, 2053 JESSHEIM, ULLENSAKER municipality.",
+            "claim_keys": [
+              "464d345020501ee4d72780c9"
+            ],
+            "evidence_ids": [
+              "ev-d0028c9a4d18af111a38"
+            ]
+          },
+          {
+            "text": "Registered subunits (1): T&G EIENDOM AS (organisation number 918057870), Elgvegen 5, 2053 JESSHEIM, ULLENSAKER municipality.",
+            "claim_keys": [
+              "ef42e17404ce85a8d20a757a",
+              "2b8930c1d6c95b0c157d1a23"
+            ],
+            "evidence_ids": [
+              "ev-ee775a885699680ac2ec",
+              "ev-f454113ad88d6cb9f76b"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "financial_snapshot",
+        "title": "Financial snapshot",
+        "statements": [
+          {
+            "text": "Latest annual accounts: 2025, the year Enhetsregisteret records as last submitted; the most recent figures below are for that year.",
+            "claim_keys": [
+              "bad089e587ede3a2d6231dc8"
+            ],
+            "evidence_ids": [
+              "ev-df291f2223fb5029d170"
+            ]
+          },
+          {
+            "text": "Most recent figures in the accounts register (company accounts), reporting period 2025-01-01 to 2025-12-31: Revenue NOK 2,766,690; operating result NOK 1,997,069; profit before tax NOK 1,305,288; net result NOK 1,089,283; total assets NOK 15,139,058; equity NOK 2,140,129; total debt NOK 12,998,929. Earlier reporting periods with figures in the accounts register: 2024-01-01 to 2024-12-31; 2023-01-01 to 2023-12-31.",
+            "claim_keys": [
+              "08e7af9b12c63d12b50059b4",
+              "59f817101a3daf237121cd54",
+              "cf82390789140bea7ddbb350",
+              "6970dcb146e462ebb81c6d19",
+              "908415483275d4990c8c427a",
+              "9d1d5fff59db61614d6937f4",
+              "7e889a3be487129a5cbadb90",
+              "aa6731d6ca1645888c2f92b2",
+              "605e463a0ed383ea0e30b5e0"
+            ],
+            "evidence_ids": [
+              "ev-11101d99ddff6c529e16",
+              "ev-18dcb0920e296f05b931",
+              "ev-5f886bd806528e689a03",
+              "ev-622e9e1c9c5f1d55bcc2",
+              "ev-97ba25b98a21ece6ec94",
+              "ev-a52b87a16d7347eb2791",
+              "ev-e28081247af073f8b0d3",
+              "ev-e681e43740bce667e9b0",
+              "ev-f953df5d1958a1ce193f"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "public_footprint",
+        "title": "Website and public footprint",
+        "statements": [
+          {
+            "text": "Checked; nothing found in the sources consulted.",
+            "claim_keys": [],
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "id": "what_changed",
+        "title": "What changed",
+        "statements": [
+          {
+            "text": "Compared with the preceding reporting period (2024-01-01 to 2024-12-31), the company accounts for 2025-01-01 to 2025-12-31 show: revenue higher (NOK 1,464,700 to NOK 2,766,690); operating result higher (NOK 772,925 to NOK 1,997,069); net result higher (NOK -150,511 to NOK 1,089,283); equity higher (NOK 1,050,847 to NOK 2,140,129).",
+            "claim_keys": [
+              "aa6731d6ca1645888c2f92b2",
+              "08e7af9b12c63d12b50059b4",
+              "e2ea6f5e233cf1db8f21fc3f",
+              "59f817101a3daf237121cd54",
+              "c09743cb514802b9e9bd33d1",
+              "6970dcb146e462ebb81c6d19",
+              "f69db751c690fb5b1b07abb4",
+              "9d1d5fff59db61614d6937f4"
+            ],
+            "evidence_ids": [
+              "ev-11101d99ddff6c529e16",
+              "ev-18dcb0920e296f05b931",
+              "ev-1a020f8ad9bf628b7bcb",
+              "ev-622e9e1c9c5f1d55bcc2",
+              "ev-64b516ae17bb8e6da102",
+              "ev-e681e43740bce667e9b0",
+              "ev-f1059a9be7344ea4b0b1",
+              "ev-f953df5d1958a1ce193f"
+            ]
+          },
+          {
+            "text": "Enhetsregisteret's roles register records its most recent change to the registered roles on 2020-11-07; it does not say what changed.",
+            "claim_keys": [
+              "c8ef666542e1f9d3c10886e3"
+            ],
+            "evidence_ids": [
+              "ev-b99e72c7a4a0824584bb"
+            ]
+          },
+          {
+            "text": "No previous run was supplied, so changes since an earlier observation by this agent are not assessed.",
+            "claim_keys": [],
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "id": "what_remains_unknown",
+        "title": "What remains unknown",
+        "statements": [
+          {
+            "text": "Checked, nothing found: job postings, the employee count (not published in the registry; unknown, not zero), site activity, a registered group structure (konsernstruktur), a verified company website.",
+            "claim_keys": [
+              "fea97ce1fbf47656a81e76a8",
+              "da3b34ad395acdd815eb952d",
+              "2fb44258f542821f3f6a36eb",
+              "5caf88894cc1fdcf95fe8016",
+              "9c40ec345ef588a7530fb06f"
+            ],
+            "evidence_ids": []
+          }
+        ]
+      }
+    ],
+    "text": "Public information found was limited to official registry records: registry identity, annual accounts, registered roles, addresses and subunits.\n\nAt a glance\n- T&G EIENDOM AS (organisation number 917922896) is a private limited company (AS) registered in Enhetsregisteret, with its business address in JESSHEIM, founded 2016-10-12.\n- What it does: in its registered words, \u201cKj\u00f8p, salg og utleie av eiendom. Deltagelse i andre selskaper.\u201d; registered industry NACE 68.200 (Utleie av egen eller leid fast eiendom).\n- Most recent figures (company accounts, reporting period 2025-01-01 to 2025-12-31): revenue NOK 2,766,690; net result NOK 1,089,283; equity NOK 2,140,129.\n- Employee count: unknown (not published in the registry record; not zero).\n- Public footprint: no company website was verified in this run, so the profile rests on the official registers.\n\nWhat the company does\n- Registered activity (Enhetsregisteret, verbatim): \u201cKj\u00f8p, salg og utleie av eiendom. Deltagelse i andre selskaper.\u201d\n- Statutory purpose (vedtektsfestet form\u00e5l, verbatim): \u201cKj\u00f8p, salg og utleie av eiendom. Deltagelse i andre selskaper.\u201d\n- Registered industry code (NACE) 68.200: Utleie av egen eller leid fast eiendom.\n\nKey company facts\n- T&G EIENDOM AS (organisation number 917922896), legal form AS (aksjeselskap).\n- Founded: 2016-10-12.\n- Registered in Enhetsregisteret: 2016-11-03.\n- Employee count: not published. Source note: The registry record carries no employee count.\n- Not registered as bankrupt or under liquidation in Enhetsregisteret.\n\nLeadership\n- Chief executive (daglig leder): Ky Tran.\n- Board chair (styrets leder): Ky Tran.\n- Deputy board members (varamedlem): Fernando Enrique Galli.\n- Accountant (regnskapsf\u00f8rer): REGNSKAP 4U AS (organisation number 825704922).\n\nLocations\n- Business address: Elgvegen 5, 2053 JESSHEIM, ULLENSAKER municipality.\n- Registered subunits (1): T&G EIENDOM AS (organisation number 918057870), Elgvegen 5, 2053 JESSHEIM, ULLENSAKER municipality.\n\nFinancial snapshot\n- Latest annual accounts: 2025, the year Enhetsregisteret records as last submitted; the most recent figures below are for that year.\n- Most recent figures in the accounts register (company accounts), reporting period 2025-01-01 to 2025-12-31: Revenue NOK 2,766,690; operating result NOK 1,997,069; profit before tax NOK 1,305,288; net result NOK 1,089,283; total assets NOK 15,139,058; equity NOK 2,140,129; total debt NOK 12,998,929. Earlier reporting periods with figures in the accounts register: 2024-01-01 to 2024-12-31; 2023-01-01 to 2023-12-31.\n\nWebsite and public footprint\n- Checked; nothing found in the sources consulted.\n\nWhat changed\n- Compared with the preceding reporting period (2024-01-01 to 2024-12-31), the company accounts for 2025-01-01 to 2025-12-31 show: revenue higher (NOK 1,464,700 to NOK 2,766,690); operating result higher (NOK 772,925 to NOK 1,997,069); net result higher (NOK -150,511 to NOK 1,089,283); equity higher (NOK 1,050,847 to NOK 2,140,129).\n- Enhetsregisteret's roles register records its most recent change to the registered roles on 2020-11-07; it does not say what changed.\n- No previous run was supplied, so changes since an earlier observation by this agent are not assessed.\n\nWhat remains unknown\n- Checked, nothing found: job postings, the employee count (not published in the registry; unknown, not zero), site activity, a registered group structure (konsernstruktur), a verified company website.\n"
+  }
+}

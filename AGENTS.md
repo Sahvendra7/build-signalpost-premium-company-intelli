@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-JBOX Next.js boilerplate using **Next.js 16** (App Router), **React 19**, **TypeScript 5**, **Tailwind CSS 4**, and **shadcn/ui** primitives. The current route surface is intentionally minimal: a root layout and one empty `/design-system` page only.
+Signalpost is an existing evidence-first Norwegian company-intelligence workspace using **Next.js 16**, **React 19**, **TypeScript 5**, **Tailwind CSS 4**, and shared UI primitives. Preserve the published implementation and branding; never scaffold a replacement. Domain/import/storage modules live in `lib/signalpost`; screens and shared workspace state live in `components/signalpost`. README is the detailed product handoff.
 
 Installed packages still include **next-intl**, **TanStack React Query**, and the Supabase client packages, but they are not wired into the active route tree right now. Treat them as optional scaffolding unless the user explicitly wants them re-enabled.
 
-There is no test framework configured. No test runner or test files exist.
+`pnpm test` runs the existing Node test suite with TypeScript transpilation and fake-indexeddb. Pinned producer samples live in tests/fixtures. Managed preview checks build and route readiness separately; do not claim browser interactions from source tests.
 
 ## Build And Type Check
 
@@ -44,9 +44,9 @@ messages/
 
 ## Routing Baseline
 
-- The active App Router entrypoints are `app/layout.tsx` and `app/design-system/page.tsx`.
-- `app/design-system/page.tsx` currently returns `null` on purpose. This is the minimum default page for this boilerplate.
-- There is no root `app/page.tsx` by default.
+- Routes: Overview `/`, `/companies`, `/companies/[organisationNumber]`, `/evidence`, `/changes`, `/compare`, `/runs`, `/runs/[runId]`, `/settings`, and rendered internal `/design-system`.
+- Root layout mounts WorkspaceProvider and AppShell. Signalpost styling is in app/signalpost.css; preserve its warm neutral/forest palette, Source Serif 4, Geist and Geist Mono.
+- The Python agent revision ff3b5152221be3e39c6f6532f47ebf6f61442336 is CLI-only. No fake live submit/poll/refresh. Device-local IndexedDB stores imported runs; synthetic demo records stay isolated and labelled. New imports retain exact original artifacts for download alongside safe projections; old imports remain compatible. Preserve six availability states, provenance, missing values and literal producer concepts.
 - There is no active `proxy.ts`.
 - There is no active `[locale]` route segment.
 - If you add routing back, keep the root layout as the owner of `<html>` and `<body>`.
