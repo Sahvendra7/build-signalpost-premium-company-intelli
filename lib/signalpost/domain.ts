@@ -62,6 +62,12 @@ export function comparisonSummary(cs:Company[],rows:ReturnType<typeof comparison
 export function coverage(run?:ResearchRun){const cs=companies(run);return CATEGORIES.map(cat=>({category:cat,available:cs.filter(c=>c.claims.some(x=>x.category===cat&&x.availability==='available')).length,total:cs.length}))}
 export function statusCounts(run?:ResearchRun){return AVAILABILITIES.map(status=>({status,count:(run?.envelopes||[]).flatMap(c=>c.claims).filter(c=>c.availability===status).length}))}
 export function reportCoverage(run?:ResearchRun){const n=run?.report?.input_rows,e=run?.report?.emitted_envelopes;return n!==undefined&&e!==undefined&&n>0&&e<=n?e/n:undefined}
+export function dashboardMetrics(run?:ResearchRun){
+ const records=companies(run),claims=records.flatMap(c=>c.claims),loaded=run?.envelopes.length??0,emitted=run?.report?.emitted_envelopes;
+ const localKnown=!!run&&(loaded>0||emitted===0);
+ const extent=!run?'No run selected.':emitted===undefined?`${loaded} envelopes loaded; report emitted total not supplied. Import extent unknown.`:loaded<emitted?`${loaded} of ${emitted} reported envelopes loaded. Partial import; local counts do not describe the whole run.`:loaded>emitted?`${loaded} envelopes loaded; report states ${emitted}. Counts do not reconcile.`:`${loaded} of ${emitted} reported envelopes loaded. Matching counts do not establish research completeness.`;
+ return {loaded,emitted,localKnown,extent,records:records.length,supportedRecords:records.filter(c=>available(c).length>0).length,anchored:records.filter(c=>c.identity?.anchored).length,retainedIdentities:records.filter(c=>c.identity?.anchored&&c.identity.carried_forward).length,supported:claims.filter(c=>c.availability==='available').length,retainedClaims:claims.filter(c=>c.availability==='available'&&c.carried_forward).length,evidence:records.reduce((n,c)=>n+c.evidence.length,0),materialCompanies:new Set(records.filter(c=>c.changes.some(e=>e.materiality==='material')).map(c=>c.organisation_number)).size};
+}
 export function canSelect(ids:string[],id:string){return ids.includes(id)||ids.length<4}
 export function runStatus(r:ResearchRun):string{const counts=r.report?.terminal_status_counts;if(counts&&Object.values(counts).some(n=>n>0)){const failed=counts.failed||0,completed=counts.completed||0;return failed?(completed?'partial':'failed'):'completed'}return r.envelopes.length?(r.envelopes.every(e=>e.run.terminal_status==='failed')?'failed':r.envelopes.some(e=>e.run.terminal_status==='failed')?'partial':'completed'):'unverified'}
 export class SignalpostReadService{
