@@ -22,6 +22,14 @@ export function claimValue(c:Claim){const text=valueText(c.value);return c.avail
 export function companyName(c:Envelope){return c.identity?.legal_name || valueString(c.claims.find(x=>x.field==='legal_name'&&x.availability==='available')?.value) || c.organisation_number || 'Invalid input'}
 function valueString(v:unknown){return typeof v==='string'?v:undefined}
 export function companies(run?:ResearchRun):Company[]{return (run?.envelopes||[]).filter((e):e is Company=>!!e.organisation_number&&/^\d{9}$/.test(e.organisation_number))}
+// Chronology describes supplied observations, never a proven refresh baseline.
+export function companyObservations(runs:ResearchRun[],organisationNumber:string){
+ return runs.flatMap(run=>companies(run).filter(company=>company.organisation_number===organisationNumber).map(company=>({run,company}))).sort((a,b)=>{
+  const stamp=(v?:string)=>v&&Number.isFinite(Date.parse(v))?Date.parse(v):null;
+  const aTime=stamp(a.company.run.completed_at),bTime=stamp(b.company.run.completed_at);
+  return aTime===null?(bTime===null?0:1):bTime===null?-1:bTime-aTime;
+ });
+}
 export function available(c:Envelope){return c.claims.filter(x=>x.availability==='available')}
 export function financialKey(c:Claim){return [c.field,c.period?.from||'unknown-start',c.period?.to||'unknown-end',c.account_type||'unknown-account',c.currency||'unknown-currency',c.unit||'base'].join('|')}
 export function comparable(a:Claim,b:Claim){return !!a.period?.from&&!!a.period?.to&&!!a.currency&&!!a.account_type&&financialKey(a)===financialKey(b)}
